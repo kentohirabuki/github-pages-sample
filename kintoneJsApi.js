@@ -1,5 +1,5 @@
 
-class KintoneJsApi {
+const KintoneJsApi = class KintoneJsApi {
   #isMobileDevice = kintone.app.getId() === null;
   #eventTypes = {
     indexShow: this.#isMobileDevice ? 'mobile.app.record.index.show' : 'app.record.index.show',
