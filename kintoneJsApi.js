@@ -223,4 +223,4 @@ class KintoneJsApi {
     return this.#isMobileDevice ? kintone.mobile.space.portal.getContentSpaceElement() : kintone.space.portal.getContentSpaceElement();
   };
 }
-export default new KintoneJsApi();
+// export default new KintoneJsApi();
